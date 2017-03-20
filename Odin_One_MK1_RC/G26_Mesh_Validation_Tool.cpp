@@ -24,14 +24,14 @@
  * Marlin Firmware -- G26 - Mesh Validation Tool
  */
 
-#define EXTRUSION_MULTIPLIER 1.0    // This is too much clutter for the main Configuration.h file  But
+#define EXTRUSION_MULTIPLIER .95    // This is too much clutter for the main Configuration.h file  But
 #define RETRACTION_MULTIPLIER 1.0   // some user have expressed an interest in being able to customize
-#define NOZZLE 0.3                  // these numbers for thier printer so they don't need to type all
+#define NOZZLE 0.4                  // these numbers for thier printer so they don't need to type all
 #define FILAMENT 1.75               // the options every time they do a Mesh Validation Print.
 #define LAYER_HEIGHT 0.2
 #define PRIME_LENGTH 10.0           // So, we put these number in an easy to find and change place.
-#define BED_TEMP 60.0
-#define HOTEND_TEMP 205.0
+#define BED_TEMP 65.0
+#define HOTEND_TEMP 235.0
 #define OOOOZE_AMOUNT 0.3
 
 #include "Marlin.h"
