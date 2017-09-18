@@ -493,14 +493,14 @@
  * X 1/32, Y 1/32, Z 1/32 E 1/16
  *                                      
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {202.6,201.8,800, 92.59}
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {202.6,201.8,800, 92.59} //92.59 370.36 (4:1 GEARING) 
 
 /**
  * Default Max Feed Rate (mm/s)
  * Override with M203
  *                                      X, Y, Z, E0 [, E1[, E2[, E3]]]
  */
-#define DEFAULT_MAX_FEEDRATE          {200,200,2, 25}
+#define DEFAULT_MAX_FEEDRATE          {200,200,2, 50} //25 50
 
 /**
  * Default Max Acceleration (change/s) change = mm/s
